@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(159, 210, 243);
+    font-family: 'Trebuchet MS';
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.container {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(237, 172, 250);
+    position: absolute;
+    left: 265px;
+    top: 200px;
+}
