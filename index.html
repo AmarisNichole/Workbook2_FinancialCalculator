@@ -12,8 +12,29 @@
             <a href="/futureValueCalculator.html"> Future Value Calculator</a>
             <a href="/presentValueAnnuityCalculator.html">Present Value Annuity Calculator</a> 
         </nav>
-        <h1>Mortgage Calculator</h1>
 
+        <div class="container">
+            <h1>Loan Calculator</h1>
+            <table>
+                <tr><th>Enter Loan Data:</th>
+                  <td></td>
+                  <tr><td>Amount of the loan ($):</td>
+                  <td><input id="amount" onchange="calculate();"></td>
+                  <td rowspan=8>
+                    <canvas id="graph" width="400" height="250"></canvas></td></tr>
+                  <tr><td>Annual interest (%):</td>
+                    <td><input id="apr" onchange="calculate();"></td></tr>
+                  <tr><td>Repayment period (years):</td>
+                    <td><input id="years" onchange="calculate();"></td>
+                  <tr><th>Approximate Payments:</th>
+                    <td><button onclick="calculate();">Calculate</button></td></tr>
+                  <tr><td>Monthly payment:</td>
+                    <td>$<span class="output" id="payment"></span></td></tr>
+                  <tr><td>Total payment:</td>
+                    <td>$<span class="output" id="total"></span></td></tr>
+                  <tr><td>Total interest:</td>
+                    <td>$<span class="output" id="totalinterest"></span></td></tr>
+                  </table>
         <script src="scripts/mortgageCalculator.js"></script>
     </body>
 </html>
