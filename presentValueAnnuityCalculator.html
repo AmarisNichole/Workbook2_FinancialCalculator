@@ -10,10 +10,52 @@
         <nav>
             <a href="/index.html">Mortgage Calculator</a>
             <a href="/futureValueCalculator.html"> Future Value Calculator</a>
-            <a href="/presentValueAnnuityCalculator.html">Present Value Annuity Calculator</a> 
+            <a href="/presentValueAnnuityCalculator.html">Present Value Annuity
+                Calculator</a>
         </nav>
         <h1>Present Value Annuity Calculator</h1>
-        
-        <script src="scripts/presentValueAnnuityCalculator.js"></script>
-    </body>
-</html>
+        <table>
+            <tr>
+                <td>Annuity Type</td>
+                <td>
+                    <select id="type">
+                        <option value="ord"> Ordinary Annuity</option>
+                        <option value="due">Annuity Due</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td width="150px"> Payment Amount
+                    <td>
+                        <input id="payment"></tr>
+                    <tr>
+                        <td> Interest Rate (%)</td>
+                        <td>
+                            <input id="interest"></td>
+                    </tr>
+                    <tr>
+                        <td> Frequency of Payments
+                            <td>
+                                <select id="period">
+                                    <option value="annually"> Annually</option>
+                                    <option value="semi annually"> Semi Annually</option>
+                                    <option value="quarterly"> Quarterly</option>
+                                    <option value="monthly"> Monthly</option>
+                                    <option value="bimonthly"> Bi Monthly
+                                    </option>
+                                    <option value="weekly"> Weekly </option>
+                                </select></tr>
+                            <tr>
+                                <td> Number of Years
+                                    <td>
+                                        <input id="years"></tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button type="button"
+                                                onclick="myFunction()">Submit</button></td>
+                                    </tr>
+                                </table>
+                                <script
+                                    src="scripts/presentValueAnnuityCalculator.js"></script>
+                            </body>
+                        </html>

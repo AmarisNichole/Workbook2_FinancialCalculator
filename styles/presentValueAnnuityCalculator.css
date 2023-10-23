@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(159, 210, 243);
+    font-family: trebuchet MS;
+}
+
+table {
+    padding: 0 1em .5em;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(237, 172, 250);
+    position: absolute;
+    left: 265px;
+    top: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
